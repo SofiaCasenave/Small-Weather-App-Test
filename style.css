@@ -1,0 +1,65 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  margin: 70px auto;
+  background: #070d59;
+  border-radius: 20px;
+  padding: 25px;
+  width: 700px;
+}
+.fa-search {
+  color: #1f3c88;
+  font-size: 20px;
+}
+.fa-globe-europe {
+  color: #1f3c88;
+  font-size: 20px;
+}
+.app-name {
+  color: #ceddef;
+  font-size: 35px;
+  margin: 0px;
+  text-align: right;
+}
+.title {
+  color: #5893d4;
+  margin: 0px;
+}
+a {
+  color: #5893d4;
+}
+.divider {
+  color: #ceddef;
+  border: 1px solid #5893d4;
+  opacity: 0.8;
+}
+.favourite-cities a {
+  color: #5893d4;
+}
+p {
+  color: #ceddef;
+}
+.main-city {
+  color: #ceddef;
+}
+.illustration img {
+  margin: -40px 0px 0px 0px;
+  width: 200px;
+}
+.weather-data ul {
+  color: #ceddef;
+  list-style-type: none;
+}
+.identification {
+  text-align: right;
+  margin: 0px;
+  font-size: 12px;
+  color: #ceddef;
+}
+.github-repo {
+  color: #5893d4;
+}
+.author a {
+  color: #5893d4;
+}

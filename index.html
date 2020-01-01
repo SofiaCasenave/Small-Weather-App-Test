@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/d7edf4c914.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>New Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <input
+              type="search"
+              placeholder=" Please Submit City"
+              autocomplete="off"
+              id="search-input"
+            />
+            <button type="submit" value="Search">
+              <i class="fas fa-search"></i>
+            </button>
+            <button type="submit" value="Search" id="search-position">
+              <i class="fas fa-globe-europe"></i>
+            </button>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <h1 class="app-name">
+            <strong>Insta</strong><span class="title">|WEATHER</span>
+          </h1>
+        </div>
+      </div>
+      <div class="favourite-cities">
+        <a href="#">London</a>
+        <a href="#">Venice</a>
+        <a href="#">New York</a>
+        <a href="#">Toronto</a>
+        <a href="#">Sydney</a>
+        <hr class="divider" />
+        <p>
+          <span id="current-date-time"></span>
+          <span id="weather-description"></span> Clear Sky
+        </p>
+      </div>
+      <div class="illustration">
+        <img
+          src="https://42f2671d685f51e10fc6-b9fcecea3e50b3b59bdc28dead054ebc.ssl.cf5.rackcdn.com/illustrations/connected_world_wuay.svg"
+          alt="Connected World"
+          class="float-right"
+        />
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h1 class="main-city">Lisbon</h1>
+          <img
+            src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"
+            alt="Weather Icon"
+            class="float-left"
+          />
+        </div>
+        <div class="col-md-6">
+          <div class="weather-data">
+            <ul>
+              <li>Humidity: 67%</li>
+              <li>Wind: 4 km/h</li>
+              <li>Pressure: 1025 mb</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr class="divider" />
+      <div class="identification">
+        <footer>
+          GitHub
+          <a
+            class="github-repo"
+            href="https://github.com/SofiaCasenave/Weather-Project"
+            target="_blank"
+            >open-sourced</a
+          >
+          and hosted on
+          <a href="https://naughty-turing-b5288e.netlify.com/" target="_blank">
+            Netlify
+          </a>
+          <span class="author">
+            | 2020 | coded by
+            <a href="https://www.linkedin.com/in/sofiacasenave" target="_blank"
+              ><strong>Sofia Casenave</strong></a
+            ></span
+          >
+        </footer>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
