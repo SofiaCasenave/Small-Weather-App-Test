@@ -2,29 +2,53 @@ body {
   font-family: "Roboto", sans-serif;
 }
 .container {
-  margin: 70px auto;
+  margin: 100px auto;
   background: #070d59;
   border-radius: 20px;
   padding: 25px;
   width: 700px;
 }
-.fa-search {
+input {
+  text-align: left;
+  margin: 0px 2px;
   color: #1f3c88;
+  background: #ceddef;
+  opacity: 1;
+  border-radius: 3px;
+  width: 295px;
+}
+button {
+  text-align: center;
+  margin: 0px;
+  padding: 5px;
+  background: transparent;
+  border: transparent;
+}
+.fa-search {
+  color: #ceddef;
   font-size: 20px;
 }
 .fa-globe-europe {
-  color: #1f3c88;
+  color: #ceddef;
   font-size: 20px;
 }
 .app-name {
-  color: #ceddef;
-  font-size: 35px;
+  text-align: center;
   margin: 0px;
+  padding: 0px;
+  color: #ceddef;
+  font-size: 30px;
   text-align: right;
 }
 .title {
   color: #5893d4;
-  margin: 0px;
+}
+.favourite-cities a {
+  color: #5893d4;
+  font-size: 15px;
+  font-weight: 550;
+  margin: 0px 5px 0px 0px;
+  text-align: center;
 }
 a {
   color: #5893d4;
@@ -34,22 +58,62 @@ a {
   border: 1px solid #5893d4;
   opacity: 0.8;
 }
-.favourite-cities a {
-  color: #5893d4;
-}
 p {
   color: #ceddef;
-}
-.main-city {
-  color: #ceddef;
+  font-size: 15px;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: capitalize;
 }
 .illustration img {
-  margin: -40px 0px 0px 0px;
+  margin: -15px 0px 0px 0px;
   width: 200px;
+  display: inline-block;
+}
+.main-city h1 {
+  color: #ceddef;
+  text-align: center;
+  margin: 0px;
+  font-size: 40px;
+  font-weight: 600;
+}
+.weather-icon img {
+  height: 120px;
+  width: 120px;
+  margin: -15px 0px 0px 45px;
+}
+.weather-temperature {
+  text-align: left;
+  color: #ceddef;
+  font-size: 40px;
+  margin: -5px 0px 0px 10px;
+  font-weight: 600;
+}
+.weather-unit {
+  color: #ceddef;
+  font-weight: 100;
+  font-size: 17px;
+  position: relative;
+  top: -16px;
+}
+.weather-temperature .active {
+  color: #ceddef;
+  font-weight: 900;
+  font-size: 17px;
+  position: relative;
+  top: 0px;
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
 .weather-data ul {
   color: #ceddef;
   list-style-type: none;
+  margin: 17px 0px 0px 42px;
+  padding: 0px;
+  font-size: 15px;
+  line-height: 19px;
 }
 .identification {
   text-align: right;
